@@ -1,0 +1,20 @@
+PORT = 9000
+BCRYPT_HASH = "BCRYPT_HASH_SECRET"
+JWT_PRIVATEKEY = "JWT_PRIVATEKEY"
+JWT_EXPIRES_IN = "2d"
+DASTABASE_URL = "mongodb://localhost:27017/voxxil"
+ORTHANC_SERVER_URL = "https://voxxil.techbitsolutions.com/orthanc"
+FRONTEND_URL = "http://localhost:3000"
+
+MS_SQL_PORT = '1433'
+MS_SQL_SERVER = '122.160.144.52'
+MS_SQL_USERNAME = "SA"
+MS_SQL_PASSWORD = "Hosting@123"
+MS_SQL_DATABASE = "voxxil"
+
+smtp_username='**********'  #Replace with your Smtp configuration
+SMTP_PASSWORD='*********'
+SMTP_HOST = 'smtp.gmail.com'
+SMTP_PORT=587
+SERVER_API = "http://localhost:9000"
+SMTP_FROM_EMAIL = '****************'

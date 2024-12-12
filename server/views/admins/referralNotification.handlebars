@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>New Patient Referral Notification</title>
+    </head>
+    <body>
+        <p>Date: {{todayDate}}</p>
+        <p>To,</p>
+        <p>{{referredBranchName}}</p>
+        <p>{{referredBranchAddress}}</p>
+        <p>{{referredBranchPhone}}</p>
+        <br />
+        <p>Hi Admin,</p>
+        <p>We are writing to inform you that a new referral has been created for a patient to your branch. Below are the details of the referral:</p>
+        
+        <h4>Patient Information:</h4>
+        <p><strong>Name:</strong> {{patientName}}</p>
+        <p><strong>Date of Birth:</strong> {{patientDOB}}</p>
+        <p><strong>Contact Information:</strong> {{patientPhone}}, {{patientEmail}}</p>
+
+        <h4>Referral Details:</h4>
+        <p><strong>Referring Branch:</strong> {{referringBranchName}}</p>
+        <p><strong>Referring Person Name:</strong> {{referringPersonName}}</p>
+        <p><strong>Date of Referral:</strong> {{todayDate}}</p>
+  
+
+        <h4>Contact Information:</h4>
+        <p><strong>Referring Branch Address:</strong> {{referringBranchAddress}}</p>
+        <p><strong>Phone:</strong> {{referringBranchPhone}}</p>
+        <p><strong>Email:</strong> {{referringBranchEmail}}</p>
+        
+        <br />
+        <p>Thank you for your prompt attention to this referral. We look forward to collaborating with you to ensure the best possible care for the patient.</p>
+
+        <p>Sincerely,</p>
+        <p>{{referringPersonName}}</p>
+        <p>{{referringPersonDesignation}}</p>
+    </body>
+</html>

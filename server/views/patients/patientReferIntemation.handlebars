@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Patient Referral Information Mail</title>
+    </head>
+    <body>
+        <p>date: {{todayDate}} </p>
+        <p>To,</p>
+        <p>{{referredBranchName}}</p>
+        <p>{{referredBranchAddress}}</p>
+        <p>{{referredBranchPhone}}</p>
+        <p>You have been referred</p>
+        <br />
+        <br />
+        <p>To Whom It May Concern / Dear {{patientName}}</p>
+        <p>Hi {{patientName}},  {{patientAge}} year old {{patientGender}}, you have been referred from {{referringBranch}} to {{referredBranchName}} for evaluation of</p>
+        <p>{{reasonForExam}}</p>
+        <h4>Medical History</h4>
+        <p>Allergies: {{#if allergies}}
+                        {{allergies}}
+                        {{else}}
+                        No Record Available
+                        {{/if}}</p>
+        <p>Previous Diagnosis: {{#if diagnosis}}
+                        {{diagnosis }}
+                        {{else}}
+                        No Record Available
+                        {{/if}}</p>
+        <p>Illness: {{#if illness}}
+                        {{illness }}
+                        {{else}}
+                        No Record Available
+                        {{/if}}</p>
+        <p>Current Medicines: {{#if medications}}
+                        {{medications }}
+                        {{else}}
+                        No Record Available
+                        {{/if}}</p>
+        <p>{{patientName}} is agreeable to participating in the exam and can be contacted via the following details {{patientPhone}} {{patientEmail}}.</body>
+        <p>Thank you for completing {{patientName}} {{examList}}.</p>
+        <p>Please do not hesitate to contact {{referringBranch}} for further assistance regarding this referral.</p>
+        <p>Sincerely,</p>
+        <p>{{referringPersonName}}</p>
+        <p>{{referringPersonDesignation}}</p>
+        <img src={{referringPersonSignature}} />
+        <p>{{todayDate}}</p>
+    </body>
+</html>

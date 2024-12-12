@@ -1,0 +1,1138 @@
+body {
+    margin: 0;
+    font-family: 'Founders Grotesk';
+}
+
+img {
+    max-width: 100%;
+}
+
+.pdLeft {
+    padding-left: 30px;
+}
+
+.status-requested{
+    background: #E800991A;
+    color: #E80099;
+}
+.status-miss{ 
+    background: #5A6BFF1A;
+    color: #5A6AFF;
+}
+.status-complete { 
+    background: #00C1361A;
+    color: #028F29;
+}
+
+.status-dot{
+    background-color: #000;
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+}
+
+
+.status-requested .status-dot{
+    background: #E80099;
+}
+.status-miss .status-dot{ 
+    background: #5A6AFF;
+}
+.status-complete .status-dot{ 
+    background: #028F29;
+}
+
+
+.status-chips{
+    padding : 10px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    font-size: 16px;
+    line-height: 0.9;
+}
+
+.MuiDrawer-paper {
+    border: unset;
+}
+
+.MuiDrawer-paper::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+
+.MuiDrawer-paper::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+.MuiDrawer-paper::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #052f5d;
+}
+
+.MuiOutlinedInput-notchedOutline {
+    border: unset;
+}
+
+.inputfield {
+    margin-top: 10px;
+}
+
+.hide-am li[aria-label="AM"] {
+    display: none;
+}
+
+.hide-pm li[aria-label="PM"] {
+    display: none;
+}
+
+.inputfield input,
+.inputfield .MuiSelect-select,
+.inputfield textarea {
+    padding: 14px 20px;
+    background-color: #F5F7F9;
+    height: auto;
+    /* border: unset; */
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.MuiFormLabel-asterisk{
+    color: red;
+}
+
+.selectDropdown .css-13cymwt-control,
+.selectDropdown .css-t3ipsp-control {
+    /* border: unset; */
+    padding: 10px 20px;
+    background-color: #F5F7F9;
+    border-radius: 6px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+}
+
+.selectDropdown .css-1fdsijx-ValueContainer {
+    padding: 0;
+}
+
+.selectDropdown .css-t3ipsp-control {
+    /* border: unset; */
+    box-shadow: unset;
+}
+
+.cardStyle {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 18px 0px #E2E6FE;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.title.m0 {
+    margin-bottom: 0px;
+}
+
+.inputfield textarea {
+    border-radius: 6px;
+    height: auto !important;
+}
+
+.commonBtn {
+    padding: 8px 30px;
+    background-color: #26BAFF;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.commonBtn-dark {
+    background-color: #052F5D;
+}
+
+.commonBtn:hover {
+    background-color: #052F5D;
+}
+
+.commonOutlinedBtn {
+    padding: 8px 30px;
+    background-color: unset;
+    border: 2px solid #26BAFF;
+    border-radius: 6px;
+    color: #26BAFF;
+    font-size: 18px;
+    text-transform: unset;
+}
+
+.commonOutlinedBtn:hover {
+    background-color: #26BAFF;
+    color: #fff;
+}
+
+.file_list {
+    background: #69CBF9;
+    color: #440E66;
+    border-radius: 4px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    padding: 6px 10px;
+    display: inline-block;
+}
+
+.file_list_wrraper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    min-height: 85px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px !important;
+}
+
+.custom-dropzone {
+    .dropzone {
+        position: relative;
+        border: 1px dashed #616161;
+        border-radius: 10px;
+        margin-top: 32px;
+        padding: 30px 42px;
+        text-align: center;
+
+        svg {
+            fill: #440e66;
+            opacity: 0.6;
+            margin-bottom: 20px;
+            width: 46px;
+            height: 46px;
+        }
+    }
+
+    .MuiInput-root {
+        background: none;
+        border: 0;
+    }
+
+    .dropzone-input {
+        height: 100%;
+        width: 100%;
+        margin-top: 0 !important;
+    }
+
+    input {
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+    }
+}
+
+.MuiFormGroup-root .css-2qqsz1-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+    color: #052F5D;
+}
+
+.MuiFormLabel-root {
+    color: #052F5D;
+}
+
+.MuiDialogActions-root {
+    padding: 16px 24px;
+}
+
+/* .MuiFormControlLabel-label {
+    text-wrap: nowrap;
+} */
+
+.customLableWidth .MuiFormControlLabel-label {
+    min-width: 160px;
+    color: #797878;
+}
+
+.customWidth .MuiFormControlLabel-label {
+    min-width: 106px;
+}
+
+.circle {
+    position: absolute;
+    display: inline-block;
+    background-color: #fff;
+    border: 4px solid #26BAFF;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.lightCircle {
+    position: absolute;
+    display: inline-block;
+    background-color: #fff;
+    border: 4px solid #e4eef3;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.85;
+}
+
+/* .smallCircle {
+    height: 10px;
+    width: 10px;
+    border: 4px solid #26BAFF;
+}
+
+.smallLightCircle {
+    height: 10px;
+    width: 10px;
+    border: 4px solid #e4eef3;
+} */
+
+.heart {
+    top: 19%;
+    right: 39%;
+}
+
+.stomach {
+    top: 26%;
+    right: 41%;
+}
+
+.head {
+    top: 5%;
+    right: 48%
+}
+
+.face {
+    top: 10%;
+    left: 45%
+}
+
+.neck {
+    top: 15%;
+    left: 50%;
+}
+
+.chest {
+    top: 20%;
+    left: 48%;
+}
+
+.pelvis {
+    top: 41%;
+    left: 48%;
+}
+
+.shoulderLeft {
+    top: 19%;
+    left: 33%;
+}
+
+.shoulderRight {
+    top: 18%;
+    right: 32%;
+}
+
+.armLeft {
+    top: 27%;
+    left: 29%;
+}
+
+.armRight {
+    top: 27%;
+    right: 29%;
+}
+
+.wristLeft {
+    top: 38%;
+    left: 18%;
+}
+
+.wristRight {
+    top: 40%;
+    right: 15%;
+}
+
+.handLeft {
+    top: 41%;
+    left: 14%;
+}
+
+.handRight {
+    top: 43%;
+    right: 12%;
+}
+
+.spineCervical {
+    top: 16%;
+    left: 49%;
+}
+
+.spineThoracic {
+    top: 25%;
+    left: 48%;
+}
+
+.spineLumbar {
+    top: 36%;
+    left: 48%;
+}
+
+.elbowLeft {
+    top: 31%;
+    left: 26%;
+}
+
+.elbowRight {
+    top: 32%;
+    right: 25%;
+}
+
+.hipLeft {
+    top: 46%;
+    left: 42%;
+}
+
+.hipRight {
+    top: 45%;
+    right: 42%;
+}
+
+.head.bodyPartTitle {
+    right: 29%;
+    top: 0;
+}
+
+.face.bodyPartTitle {
+    left: 28%;
+    top: 4%;
+}
+
+.neck.bodyPartTitle {
+    left: 55%;
+    top: 10%;
+}
+
+.chest.bodyPartTitle {
+    left: 28%;
+}
+
+.heart.bodyPartTitle {
+    right: -12%;
+}
+
+.shoulderLeft.bodyPartTitle {
+    left: 5%;
+    top: 12%;
+}
+
+.shoulderRight.bodyPartTitle {
+    right: -3%;
+    top: 15%;
+}
+
+.armLeft.bodyPartTitle {
+    left: 6%;
+    top: 19%;
+}
+
+.armRight.bodyPartTitle {
+    right: 2%;
+    top: 22%;
+}
+
+.wristLeft.bodyPartTitle {
+    left: -8%;
+    top: 33%;
+}
+
+.wristRight.bodyPartTitle {
+    right: -13%;
+    top: 36%;
+    display: inline-table;
+}
+
+.handLeft.bodyPartTitle {
+    left: 2%;
+    top: 44%;
+}
+
+.handRight.bodyPartTitle {
+    right: 0%;
+    top: 47%;
+}
+
+.pelvis.bodyPartTitle {
+    left: 27%;
+    top: 38%;
+    display: inline-table;
+}
+
+.spineCervical.bodyPartTitle {
+    left: 40%;
+    top: 9%;
+}
+
+.spineThoracic.bodyPartTitle {
+    left: 33%;
+    top: 28%;
+}
+
+.spineLumbar.bodyPartTitle {
+    left: 34%;
+    top: 39%;
+}
+
+.elbowLeft.bodyPartTitle {
+    left: -1%;
+    top: 26%;
+}
+
+.elbowRight.bodyPartTitle {
+    right: -5%;
+    top: 29%;
+}
+
+.hipLeft.bodyPartTitle {
+    left: 23%;
+    top: 50%;
+}
+
+.hipRight.bodyPartTitle {
+    right: 28%;
+    top: 49%;
+}
+
+.stomach.bodyPartTitle {
+    right: -5%;
+    top: 27%;
+}
+
+
+.abdomen.bodyPartTitle {
+    right: 19%;
+    text-wrap: nowrap;
+    top: 35%;
+}
+
+.kneeLeft.bodyPartTitle {
+    left: 12%;
+}
+
+.kneeRight.bodyPartTitle {
+    right: 10%;
+}
+
+.thighLeft.bodyPartTitle {
+    left: 11%;
+    display: inline-table;
+}
+
+.thighRight.bodyPartTitle {
+    right: 8%;
+    display: inline-table;
+}
+
+.ankleLeft.bodyPartTitle {
+    left: 10%;
+    top: 72%;
+}
+
+.ankleRight.bodyPartTitle {
+    right: 10%;
+    top: 71%;
+}
+
+.footLeft.bodyPartTitle {
+    left: 11%;
+    top: 79%;
+    display: inline-table;
+}
+
+.footRight.bodyPartTitle {
+    right: 8%;
+    top: 79%;
+    display: inline-table;
+}
+
+.abdomen {
+    top: 33%;
+    right: 45%;
+}
+
+.kneeLeft {
+    top: 62%;
+    left: 39%;
+}
+
+.kneeRight {
+    top: 62%;
+    right: 39%;
+}
+
+.thighLeft {
+    top: 47%;
+    left: 38%;
+}
+
+.thighRight {
+    top: 47%;
+    right: 38%;
+}
+
+.ankleLeft {
+    top: 77%;
+    left: 37%;
+}
+
+.ankleRight {
+    top: 77%;
+    right: 37%;
+}
+
+.footLeft {
+    bottom: 17%;
+    left: 36%;
+}
+
+.footRight {
+    bottom: 17%;
+    right: 35%;
+}
+
+.popoverElement .MuiPopover-paper {
+    background-color: unset;
+    box-shadow: unset;
+}
+
+.bodyPartTitle {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #26BAFF;
+    border-radius: 6px;
+    padding: 8px 20px;
+}
+
+.popoverElement {
+    margin-left: 10px;
+}
+
+.bodyPostures {
+    position: absolute;
+    bottom: 30px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bodyPostures .MuiButton-root {
+    background-color: transparent;
+    border: 1px solid #26BAFF;
+    border-radius: 24px;
+    color: #26BAFF;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 4px 20px;
+    box-shadow: unset;
+    margin-right: 30px;
+    text-transform: unset;
+}
+
+.bodyPostures .MuiButton-root:last-child {
+    margin-right: 0 !important;
+}
+
+.bodyPostures .MuiButton-root:hover,
+.bodyPostures .active {
+    background-color: #26BAFF;
+    color: #fff;
+}
+
+.commonTable {
+    border: 1px solid #EAECF0;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06), 0px 1px 3px 0px rgba(16, 24, 40, 0.10);
+}
+
+.commonTable .MuiTableCell-head {
+    background-color: unset;
+    color: #052F5D;
+    font-size: 20px;
+    border-bottom: 1px solid #EAECF0;
+    border-radius: 10px 0 0 0;
+}
+
+.commonTable tbody td {
+    padding: 12px 20px;
+}
+
+.commonTable tbody tr:nth-child(odd) {
+    background-color: #F9FAFB;
+}
+
+.examsGrid {
+    max-height: 778px;
+    overflow-y: auto;
+}
+
+.examsGrid::-webkit-scrollbar {
+    display: none;
+}
+
+.patientData {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #797878;
+}
+
+.branchMenu .MuiPaper-root,
+.adminMenu .MuiPaper-root {
+    top: 80px !important;
+    left: unset !important;
+    box-shadow: 0px 4px 20px 0px #CACACA;
+}
+
+.branchMenu .MuiPaper-root {
+    min-width: 140px;
+    right: 252px;
+}
+
+.adminMenu .MuiPaper-root {
+    min-width: 180px;
+    right: 46px;
+}
+
+.btn {
+    padding: 6px 20px;
+    text-transform: unset;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.prevBtn {
+    border: 2px solid #26BAFF;
+    color: #26BAFF;
+    background-color: transparent;
+}
+
+.prevBtn:hover {
+    border: 2px solid #26BAFF;
+    color: #fff;
+    background-color: #26BAFF;
+}
+
+.cancelBtn {
+    border: 2px solid #797878;
+    color: #797878;
+    background-color: transparent;
+}
+
+.cancelBtn:hover {
+    border: 2px solid #797878;
+    color: #fff;
+    background-color: #797878;
+}
+
+.guidance-title {
+    color: #052F5D;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.guidance-text p {
+    color: #797878;
+    font-size: 18px;
+}
+
+.guidance-text li::marker {
+    color: #797878;
+}
+
+.guidance-text li {
+    margin-bottom: 6px;
+}
+
+.guidance-text li:last-child {
+    margin-bottom: 0;
+}
+
+.tableShadow {
+    border: 1px solid #EAECF0;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06), 0px 1px 3px 0px rgba(16, 24, 40, 0.10);
+    ;
+}
+
+.tableShadow .commonTable {
+    border: unset;
+}
+
+.patientData .MuiFormControlLabel-label {
+    min-width: 149px;
+}
+
+.previewDataTitle .title {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.commonTable .tableHeading {
+    color: #797878;
+}
+
+.MuiFormHelperText-root {
+    content: "*";
+    font-size: 16px;
+    font-weight: 500;
+    color: #d32f2f !important;
+    margin: 6px 0 0 0;
+}
+
+.select-filter .MuiSelect-select {
+    padding: 6px 32px 6px 16px;
+}
+
+.dept-title {
+    width: 220px;
+    margin: 0 auto;
+    height: 88px;
+}
+
+.main-header .MuiAppBar-root {
+    background-color: #F6FCFF;
+    color: #052F5D;
+    padding: 20px 0;
+}
+
+.add-header-btn {
+    margin-top: 32px;
+}
+
+.single-select-dropdown{
+    padding: 6px;
+    border: 2px solid #052F5D;
+    border-radius: 6px;
+    color: #052F5D;
+}
+
+.single-select-dropdown .MuiSelect-select{
+    padding: 0;
+}
+
+.dashboard-cards .card-1 p{
+    margin: 0 0 24px 0;
+    max-width: 300px;
+    font-size: 18px;
+}
+
+.dashboard-cards .card-1 span{
+    min-width: fit-content;
+}
+
+.dashboard-cards h2{
+    margin: 0 10px 0 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.dashboard-cards h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 10px 0 10px 0;
+    min-width: 300px;
+}
+
+.dashboard-cards .card-1 h1{
+    color: #2D33C0;
+}
+
+.dashboard-cards .card-2 h1{
+    color: #B80587;
+}
+
+.dashboard-cards .card-3 h1{
+    color: #FF5E2A;    
+}
+
+.dashboard-cards .card-4 h1{
+    color: #33BF49;    
+}
+
+.dashboard-cards .card-4 .appoint-title p{
+    margin: 0;
+}
+
+.dashboard-cards .card-4 .general-rooms{
+    margin-bottom: 20px;
+
+}
+
+.dashboard-cards .card-4 .general-rooms p{
+    margin: 0 0 21px 0;
+}
+
+.dashboard-cards .card-2 .appoint-title p{
+    margin: 0;
+}
+
+.dashboard-cards .card-2 .value{
+    padding: 4px 10px;
+    background-color:#F0D6E9;
+    border-radius: 6px;
+    margin: 0;
+}
+
+.dashboard-cards .MuiLinearProgress-root{
+    height: 8px;
+    background-color: #C1C4FF;
+    border-radius: 6px;
+}
+
+.dashboard-cards .MuiLinearProgress-root .MuiLinearProgress-bar{
+    max-width: 80px;
+    background-color: #2D33C0;
+}
+
+.dashboard-cards .MuiOutlinedInput-root{
+    min-width: 120px;
+}
+
+.appointmentCard .title{
+    margin-bottom: 8px !important;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+    background-color: #052F5D;
+    border-radius: 8px;
+    background-clip: padding-box;
+  }
+  
+.custom-scroll::-webkit-scrollbar {
+    width: 6px;
+    background-color: #bcbcbc;
+}
+
+.customFont p{
+    font-family: 'Helvetica' !important;
+}
+.patient-gender {
+    text-transform: capitalize;
+}
+.patient-dashboard-listing .commonTable tbody td {
+    padding: 18px 20px;
+}
+/* --------------------------- Responsive CSS --------------------------- */
+@media (max-width:1700px) {
+    .bodyPartTitle {
+        font-size: 14px;
+    }
+
+    .pelvis.bodyPartTitle {
+        left: 26%;
+    }
+
+    .chest.bodyPartTitle {
+        left: 26%;
+    }
+}
+
+@media (max-width:1600px) {
+    /* .stomach.bodyPartTitle {
+        right: -8%;
+        top: 27%;
+    }
+
+    .abdomen.bodyPartTitle {
+        right: 21%;
+        text-wrap: nowrap;
+        top: 35%;
+    }
+
+    .foot.bodyPartTitle {
+        right: 13%;
+        display: inline-table;
+    } */
+
+
+}
+
+@media (max-width:1440px) {
+    .examsGrid {
+        max-height: 668px;
+    }
+
+    .examsGrid .MuiPaper-root:last-child {
+        margin-bottom: 10px;
+    }
+
+    /* .bodyPostures {
+        left: 16px;
+        min-width: 355px;
+    } */
+
+    .bodyPostures .MuiButton-root {
+        font-size: 16px;
+        margin-right: 8px;
+    }
+
+    .bodyPostures .MuiButton-root:last-child {
+        margin-right: 0px;
+    }
+
+
+}
+
+@media (max-width:1366px) {
+    /* .examination {
+        display: inline-block;
+    } */
+
+    /* .examination .bodyPosture {
+        margin: auto;
+        max-width: 400px;
+    } */
+
+    /* .examination .examsGrid {
+        max-width: 890px;
+        max-height: 600px;
+        margin-top: 20px;
+    } */
+
+    .examsGrid .MuiPaper-root {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:1199.98px) {
+    nav {
+        display: none;
+    }
+
+    .dept-title {
+        width: 270px;
+    }
+
+
+}
+
+@media (max-width:1024.98px) {
+
+    .stepper-bar {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .stepper-bar .MuiStep-root {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:992.98px) {
+
+    .searchBar-patient .MuiInputBase-input {
+        min-width: 100%;
+    }
+}
+
+
+@media (max-width:900px) {
+    .about-img {
+        width: 400px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .main-img {
+        width: 400px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .feature-img {
+        width: 400px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:768.98px) {
+
+    .header-wrapper {
+        flex-direction: column-reverse;
+        align-items: baseline;
+    }
+
+    .header-icons {
+        width: 100%;
+        justify-content: end;
+    }
+
+    /* .add-header-btn {
+        margin-top: 72px;
+    } */
+}
+
+@media (max-width:767.98px) {
+
+    .MuiStepConnector-root {
+        display: none;
+    }
+
+    .main-toolbar {
+        min-height: 86px;
+    }
+
+}
+
+@media (max-width:676.98px) {}
+
+@media (max-width:600px) {
+    .dept-title {
+        height: unset;
+    }
+
+    .commonBtn {
+        padding: 8px 18px;
+    }
+
+    .search_sm {
+        width: auto;
+        margin-right: 20px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .cardStyle {
+        padding: 20px;
+    }
+}
+
+@media (max-width:425.98px) {
+    .MuiDrawer-paper {
+        width: 320px !important;
+        padding: 20px 10px !important;
+    }
+
+    .MuiDrawer-paper .MuiListItemText-root .MuiTypography-root {
+        font-size: 18px;
+    }
+
+    .guidance-title {
+        font-size: 20px;
+    }
+}
